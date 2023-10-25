@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,700;1,9..40,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+aside {
+    background-color: #000;
+    color: #fff;
+    width: 371.801px;
+    height: 982px;
+
+}
+
+.logo-container {
+    padding: 38px 35px;
+}
+
+.home-container {
+    padding: 14px 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    transition: all .5s ease-in-out;
+
+}
+
+.home-container:hover {
+    width: 347.097px;
+    height: 61.761px;
+    border-radius: 6px;
+    background: #282828;
+}
+
+.search-container:hover {
+    width: 347.097px;
+    height: 61.761px;
+    border-radius: 6px;
+    background: #282828;
+}
+
+.library-container:hover {
+    width: 347.097px;
+    height: 61.761px;
+    border-radius: 6px;
+    background: #282828;
+}
+
+.home-container p {
+    margin-left: 17px;
+}
+
+.home-container img {
+    width: 29.645px;
+    height: 32.116px;
+}
+
+.search-container {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    width: 347.097px;
+    height: 61.761px;
+    border-radius: 6px;
+    transition: all .5s ease-in-out;
+
+}
+
+.search-container img {
+    width: 25.645px;
+    height: 32.116px;
+}
+
+.search-container p {
+    margin-left: 22px;
+}
+
+.library-container {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    width: 347.097px;
+    height: 61.761px;
+    transition: all .5s ease-in-out;
+
+}
+
+.library-container p {
+    margin-left: 20px;
+}
+
+.playlist-container,
+.song-container,
+.episode-container {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    width: 347.097px;
+    height: 61.761px;
+    margin-top: 14px;
+}
+
+.playlist-container p,
+.song-container p,
+.episode-container p {
+    margin-left: 20px;
+}
+
+.plus-image {
+    background-color: #fff;
+}
+
+.song-image {
+    border-radius: 1px;
+    padding: 10px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.episode-image {
+    border-radius: 5px;
+    background: #004638;
+    padding: 7px;
+}
+
+.text-container {
+    padding: 35px 38px;
+
+}
+
+.text-container p {
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: -0.997px;
+    padding: 18px 37px;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-container {
+    padding: 27px 10px;
+}
+
+.arrow-container img {
+    margin: 8px;
+}
+
+
+.profile-container {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.profile-container img {
+    padding: 5px;
+}
+
+.carret-down {
+    margin-left: 13px;
+}
+
+.list-container {
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+    width: 1471.435px;
+    height: 1109.889px;
+    color: #fff;
+}
+
+main h1 {
+    padding: 20px 47px;
+}
+
+.playlist2-container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    align-items: center;
+    width: 362px;
+    height: 100px;
+    border-radius: 4px;
+    background: #303030;
+    margin-bottom: 20px;
+
+}
+
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p {
+    padding: 37px 21px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+
+
+.card_image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px 0px 0px 4px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+
+}
+
+.heading {
+    padding: 27px;
+    color: #FFF;
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: -1.16px;
+}
+
+.songs {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.song {
+    width: 251.292px;
+    height: 305.904px;
+    background: #181818;
+}
+
+.song img {
+    display: block;
+    margin: auto;
+}
+
+.song h4 {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.song p {
+    padding-left: 20px;
+}
